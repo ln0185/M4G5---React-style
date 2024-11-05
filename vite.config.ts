@@ -4,6 +4,7 @@ import { defineConfig } from "vite";
 
 export default defineConfig({
   plugins: [react()],
+  base: "/M4G5---React-style/",
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
